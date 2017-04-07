@@ -3,10 +3,14 @@
     <system>
         <section id="catalog">
             <group id="search">
-                <field id="autocomplete_limit" translate="label comment" type="text" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="autocomplete_limit" translate="label comment" type="text" sortOrder="1000" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Autocomplete Result Limit</label>
                     <validate>validate-not-negative-number</validate>
                     <comment>Enter a positive number to apply a limit to the number of results that will be displayed. If the value here is 0, or the field is left empty, no limit will be applied</comment>
+                </field>
+                <field id="hide_result_count" translate="label comment" type="select" sortOrder="1010" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Hide Autocomplete Result Count</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
             </group>
         </section>
