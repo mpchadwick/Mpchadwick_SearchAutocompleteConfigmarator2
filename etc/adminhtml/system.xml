@@ -12,6 +12,11 @@
                     <label>Hide Autocomplete Result Count</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
+                <field id="like_match_position" translate="label comment" type="select" sortOrder="1020" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Like Match Position</label>
+                    <source_model>Mpchadwick\SearchAutocompleteConfigmarator\Model\Config\Source\Likematchposition</source_model>
+                    <comment>The type of SQL LIKE query to use. "Start" finds search terms that start with the input. "Any" find search terms where the input is present anywhere</comment>
+                </field>
             </group>
         </section>
     </system>
