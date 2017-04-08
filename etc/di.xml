@@ -4,4 +4,8 @@
         <plugin name="mpchadwick-searchautocompleteconfigmarator-dataprovider-plugin"
             type="Mpchadwick\SearchAutocompleteConfigmarator\Model\DataProvider" sortOrder="10"/>
     </type>
+    <type name="Magento\Search\Model\ResourceModel\Query\Collection">
+        <plugin name="mpchadwick-searchautocompleteconfigmarator-querycollection-plugin"
+            type="Mpchadwick\SearchAutocompleteConfigmarator\Model\QueryCollection" sortOrder="1"/>
+    </type>
 </config>
