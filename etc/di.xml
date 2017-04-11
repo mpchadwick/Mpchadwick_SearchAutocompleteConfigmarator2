@@ -8,4 +8,8 @@
         <plugin name="mpchadwick-searchautocompleteconfigmarator-querycollection-plugin"
             type="Mpchadwick\SearchAutocompleteConfigmarator\Model\QueryCollection" sortOrder="1"/>
     </type>
+    <type name="Magento\Framework\RequireJs\Config\File\Collector\Aggregated">
+        <plugin name="mpchadwick-searchautocompleteconfigmarator-requirejs-plugin"
+            type="Mpchadwick\SearchAutocompleteConfigmarator\Model\RequireJs" sortOrder="10"/>
+    </type>
 </config>
